@@ -1,16 +1,7 @@
-# Compiled class file
+# Java
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Derlenmiş paketler
 *.jar
 *.war
 *.nar
@@ -19,6 +10,53 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Build klasörü
+target/
+
+# Log dosyaları
+*.log
+logs/
+
+# Ortam dosyaları
+.env
+*.env
+
+# Spring yapılandırma (opsiyonel)
+application-local.yml
+application-dev.yml
+
+# IDE dosyaları
+*.iml
+.idea/
+.vscode/
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# Git merge çözümleri
+*.orig
+
+# JVM crash log dosyaları
 hs_err_pid*
 replay_pid*
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Node (React varsa)
+node_modules/
+build/
+dist/
