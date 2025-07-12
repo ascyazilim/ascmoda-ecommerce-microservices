@@ -15,10 +15,9 @@
   <modules>
     <module>config-server</module>
     <module>discovery-server</module>
-    <!-- Eklenecek modüller
-    <module>discovery-server</module>
-    <module>api-gateway</module>
     <module>user-service</module>
+    <!-- Eklenecek modüller
+    <module>api-gateway</module>
     <module>product-service</module>
     <module>order-service</module>
     <module>payment-service</module>
